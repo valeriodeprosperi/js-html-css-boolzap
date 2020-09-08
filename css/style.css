@@ -34,7 +34,12 @@ body{
   height:50px;
   background-color: green;
 }
-
+.avatar_left{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
 
 .avatar_left img{
   width:40px;
@@ -43,5 +48,9 @@ body{
 }
 
 .top_left_icons{
-  font-size: 30px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+height: 100%;
+font-size: 30px;
 }
