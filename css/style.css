@@ -35,8 +35,13 @@ body{
   background-color: green;
 }
 
+
 .avatar_left img{
   width:40px;
   border-radius: 50px;
 
+}
+
+.top_left_icons{
+  font-size: 30px;
 }
