@@ -53,4 +53,30 @@ justify-content: flex-end;
 align-items: center;
 height: 100%;
 font-size: 30px;
+margin-right: 10px;
+}
+
+.top_left_icons i{
+  padding:10px;
+  color:  grey;
+}
+
+.bell_box{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  height:80px;
+  background-color: blue;
+}
+
+.bell_left{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.bell_left i{
+  width:40px;
+  border-radius: 50px;
 }
