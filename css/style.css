@@ -96,3 +96,11 @@ background-color: white;
   font-size:15px;
   color: #6fa6c0;
 }
+
+.search_bar_left{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height:50px;
+  background-color: white;
+}
