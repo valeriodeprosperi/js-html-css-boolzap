@@ -186,3 +186,44 @@ background-color: white;
   width:100%;
   overflow-y: auto;
 }
+
+.sent {
+  position: relative;
+  float: right;
+  width: 120px;
+  height: 50px;
+  background: #D5FABA;
+  border-radius: 5px;
+  margin: 10px 50px 10px 0;
+  color: #000;
+  clear: both;
+}
+
+.received {
+  position: relative;
+  float: left;
+  width: 120px;
+  height: 50px;
+  background: #FFF;
+  border-radius: 5px;
+  margin: 10px 0 10px 50px;
+  color: #000;
+  clear: both;
+}
+
+.message {
+  text-align: left;
+  margin: 10px 0 0 15px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.message-timer {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  margin-right: 5px;
+  font-size: 0.5rem;
+  font-weight: 700;
+  color: rgba(0,0,0, 0.5)
+}
