@@ -9,13 +9,14 @@ body{
   display:flex;
   justify-content: center;
   height: 100vh;
+
 }
 
 .container{
   display:flex;
   height: 90%;
   width:80%;
-  background-color: red;
+
 }
 
 /* left_side */
@@ -58,7 +59,7 @@ margin-right: 10px;
 
 .top_left_icons i{
   padding:10px;
-  color:  grey;
+  color:  #B1B1B1;
 }
 
 .bell_box{
@@ -161,4 +162,26 @@ background-color: white;
 .avatar_right img{
   width:40px;
   border-radius: 50px;
+}
+
+.top_right_icons{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  margin-right: 10px;
+  color: #B1B1B1;
+  font-size: 1.4rem;
+}
+
+.top_right_icons i{
+  cursor: pointer;
+  padding: 8px;
+}
+/* chat */
+
+.chat{
+  background-image: url("../img/mine.jpg");
+  height:100%;
+  width:100%;
 }
