@@ -33,7 +33,7 @@ body{
   justify-content:space-between;
   width: 100%;
   height:50px;
-  background-color: green;
+  background-color: #eaeaea;
 }
 .avatar_left{
   display: flex;
@@ -151,7 +151,7 @@ background-color: white;
   justify-content:space-between;
   width: 100%;
   height:50px;
-  background-color: pink;
+  background-color: #eaeaea;
 }
 .avatar_right{
   display: flex;
@@ -252,7 +252,7 @@ background-color: white;
 }
 
 
-.send-text {
+#send-text {
   width: 80%;
   height: 50px;
   margin: 30px auto;
